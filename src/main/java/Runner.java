@@ -9,18 +9,20 @@ public class Runner {
 
 //        SCOTTISH ISLANDS
         List<String> scottishIslands = new ArrayList<>();
-        scottishIslands.add("Tires");
         scottishIslands.add("Jura");
-        scottishIslands.add("Islay");
         scottishIslands.add("Mull");
         scottishIslands.add("Skye");
         scottishIslands.add("Arran");
         scottishIslands.add("Tresco");
-        scottishIslands.add("Coll");
 
 //        1. Add "Coll" to the end of the list
+        scottishIslands.add("Coll");
+
 //        2. Add "Tiree" to the start of the list
+        scottishIslands.add(0, "Tires");
+
 //        3. Add "Islay" after "Jura" and before "Mull"
+        scottishIslands.add(2, "Islay");
 
         System.out.println(scottishIslands);
 
