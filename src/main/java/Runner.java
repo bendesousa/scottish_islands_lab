@@ -102,6 +102,7 @@ public class Runner {
             sum2 = sum2 + array_numbers[i];
         }
         System.out.println("The sum of the lucky numbers is " + sum2);
+//        better to break the loop at 13, this would allow for use in bigger array lists 
 
     }
 
